@@ -14,6 +14,7 @@ number of individual images should be kept low, and sub-images can be used
 easily.
 
 Example:
+
 	blocks = [Block(img.size, img) for img in images]
 	packer = Packer()
 	packer.fit(blocks)
