@@ -26,3 +26,10 @@ files, and output the resultant spritesheet, and optionally a C-style header
 containing a table of coordinates. It can also generate some other optional
 output.
 
+The code and algorithm is loosely based on [the work of Jake Gordon](http://codeincomplete.com/posts/2011/5/7/bin_packing/)
+However, Jake's hierarchy of nodes is organised different from my hierarchy of
+boxes. More significantly, the input images in Jake's example *have* to be
+sorted from largest to smallest, in order for his algorithm to work.
+His write-up on the topic is very good though, and I wouldn't have written this
+code without reading his article.
+
